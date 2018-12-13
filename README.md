@@ -1,4 +1,4 @@
-# intro-to-html-and-css
+# Intro to HTML and CSS
 
 Learning notes and hand-ons for Udacity course Intro to HTML and CSS
 
@@ -56,3 +56,15 @@ Learn to use developer tools to identify the font size of `h1` and the border si
 **CSS** - Cascading Style Sheets - style sheet language used for describing the look and formatting of a document written in a markup language.
 
 **DOM** - Document Object Model - a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the **DOM tree**.
+
+HTML files are nothing but text files whose format follows the specific HTML syntax. The basic unit in HTML syntax is a **tag**. The browsers turn HTML tags into elements to form a tree, using DOM. HTML defines the **structure** and the **content** of a web page. Below is a typical HTML tag syntax:
+
+```html
+<!-- starting tag with attribute-->
+<tag attribute-var1="attribute-value1" attribute-var2="attribute-value2">
+content (which can be empty, text, or other elements...)
+<!-- ending tag -->
+</tag> 
+```
+
+CSS, on the other hand, is used to define the styles. For example, by using a CSS file, we can specify all the paragraph elements with attribute `"class"="news-body"` to use the style where font color is navy blue. We will learn how to do it later this course.
