@@ -1,4 +1,4 @@
-Learning notes and hand-ons for Udacity course *Intro to HTML and CSS*
+Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://www.udacity.com/course/intro-to-html-and-css--ud001)
 
 - [Lesson 1: HTML, CSS, and Boxes](#lesson-1-html-css-and-boxes)
   - [The First Step](#the-first-step)
@@ -56,7 +56,7 @@ Explain the tree structure for the html file below:
 
 ## Summary of HTML
 
-So far, we have learned how HTML classifies the page content, like where a image is or where a paragraph should be, but we haven't learn how the content is shown, like how big the font size or what image is shown. 
+So far, we have learned how HTML classifies the page content, like where a image is or where a paragraph should be, but we haven't learn how the content is shown, like how big the font size or what image is shown, because those are not HTML's jobs.
 
 ## Quiz: Visual Styling
 
@@ -122,20 +122,20 @@ Jacques talked about how to boxify a design - from outer big boxes to inner smal
 Draw a pure box with `<div>`
 
 ```html
-<div>title box</div>
+<div>My title box</div>
 <div>
-    <div>image</div>
-    <div>text</div>
+    <div>My image box</div>
+    <div>My text box</div>
 </div>
 ```
 
 A way to differentiate these boxes is to use the `class` attribute. (We want to be able to differentiate the boxes because, for example, we want to apply different style to each box.) If an element is imagined to be a real paperboard box, `class` is like the label on that box. One box can have any number of lables. 
 
 ```html
-<div class="title">title box</div>
+<div class="title">My title box</div>
 <div class="app">
-    <div class="screenshot">image</div>
-    <div class="description">text</div>
+    <div class="screenshot">My image box</div>
+    <div class="description">My text box</div>
 </div>
 ```
 
@@ -163,10 +163,10 @@ To keep things organized we highly recommend using the file structure described 
 Open the `index.html` file in your code editor, and write or copy/paste the following code and save the file:
 
 ```html
-<div class="title">My App</div>
+<div class="title">My title box</div>
 <div class="app">
-    <div class="screenshot">image</div>
-    <div class="description">text</div>
+    <div class="screenshot">My image box</div>
+    <div class="description">My text box</div>
 </div>
 ```
 
