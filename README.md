@@ -1,6 +1,21 @@
-# Intro to HTML and CSS
+Learning notes and hand-ons for Udacity course *Intro to HTML and CSS*
 
-Learning notes and hand-ons for Udacity course Intro to HTML and CSS
+- [Lesson 1: HTML, CSS, and Boxes](#lesson-1-html-css-and-boxes)
+  - [The First Step](#the-first-step)
+  - [Quiz: Exploring the Web](#quiz-exploring-the-web)
+  - [Quiz: Page Structure](#quiz-page-structure)
+  - [Summary of HTML](#summary-of-html)
+  - [Quiz: Visual Styling](#quiz-visual-styling)
+  - [HTML-CSS-DOM](#html-css-dom)
+  - [Quiz: Boxes Everywhere](#quiz-boxes-everywhere)
+  - [Boxes, Grids and Rules](#boxes-grids-and-rules)
+  - [Quiz: Boxifying Design](#quiz-boxifying-design)
+  - [Interview with Jacques](#interview-with-jacques)
+  - [Boxes To HTML](#boxes-to-html)
+  - [Quiz: Creating the Files](#quiz-creating-the-files)
+    - [Create Folder and File Structure](#create-folder-and-file-structure)
+    - [Edit the HTML Document](#edit-the-html-document)
+    - [Test the HTML File in a Browser](#test-the-html-file-in-a-browser)
 
 # Lesson 1: HTML, CSS, and Boxes
 
@@ -87,7 +102,7 @@ display: inline-block;
 
 ## Boxes, Grids and Rules
 
-The reason every element has a box layout is for simplicity. Think about boxes in a factory - the reason everything is stored in boxes is because they can stacked easily, and their location can be referred to easily. If all the inventory units are of different shapes, they would be really difficult to arrange and categorize. Same thing here for web page layout.
+The reason every element has a box layout is for simplicity. Think about boxes in a warehouse - the reason everything is stored in boxes is because they can stacked easily, and their location can be referred to easily. If all the warehouse storage units are of different shapes, they would be really difficult to arrange and categorize. Same thing here for web page layout.
 
 ## Quiz: Boxifying Design
 
@@ -161,4 +176,3 @@ Note: For this quiz, you are not expected to add the image or the description te
 
 - Go to the folder, right click the file and choose “Open.. with Google Chrome”.
 - Alternatively, in Chrome click "File -> Open File" and then browse to the `index.html` file and click "Open".
-
