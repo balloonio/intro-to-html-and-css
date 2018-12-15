@@ -16,6 +16,12 @@ Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://w
     - [Create Folder and File Structure](#create-folder-and-file-structure)
     - [Edit the HTML Document](#edit-the-html-document)
     - [Test the HTML File in a Browser](#test-the-html-file-in-a-browser)
+  - [Quiz: Adding Style](#quiz-adding-style)
+  - [Understanding CSS](#understanding-css)
+    - [Search and Replace](#search-and-replace)
+    - [Order Matters](#order-matters)
+    - [Specifics Matter](#specifics-matter)
+  - [Styling Up](#styling-up)
 
 # Lesson 1: HTML, CSS, and Boxes
 
@@ -176,3 +182,68 @@ Note: For this quiz, you are not expected to add the image or the description te
 
 - Go to the folder, right click the file and choose “Open.. with Google Chrome”.
 - Alternatively, in Chrome click "File -> Open File" and then browse to the `index.html` file and click "Open".
+
+## Quiz: Adding Style
+
+An HTML file needs to tell the browser where to look for the style files. Otherwise, the browser will just render with its default styles. That is exactly why we need a more complete HTML format, compared to what we've seen earlier. The `<head>` tag is used to specify some meta-data about the HTML file, in this case, the CSS style file.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="title">My title box</div>
+        <div class="app">
+            <div class="screenshot">My image box</div>
+            <div class="description">In ac ipsum quis turpis...</div>
+        </div>
+    </body>
+</html>
+```
+
+`style.css` looks like this:
+
+```css
+.description {
+    color: red
+}
+```
+
+## Understanding CSS
+
+### Search and Replace
+
+You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different ones.
+
+### Order Matters
+
+It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:
+
+- the default style of a browser (different browsers have slightly different styles)
+- stylesheet in a separate file (this is what you will be mostly using)
+- stylesheet inside HTML (this can be done for small projects but is not ideal)
+- inline style in an element (this can also be done but should be avoided)
+
+### Specifics Matter
+
+**"Cascading"** means that rules are applied **not only** to the elements they directly match, but also to **all of those elements' child elements**. However, if a child element has multiple, overlapping rules defined for it, the **more specific rule takes effect**.
+
+## Styling Up
+
+The biggest key to understanding CSS is understanding **selectors**. Selectors are what allows you to target specific HTML elements and apply style to them. The best way to learn CSS is to get comfortable with the **documentations**.
+
+[How CSS Selectors Work](https://css-tricks.com/how-css-selectors-work/)  
+[MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
+Use the documentations above to answer the following questions:
+
+1. Which of the following are possible values for the `font-style` property?
+- [x] italic
+- [x] normal
+- [ ] bold
+- [ ] standard
+
+2. What property would you use to make the text look **bold**?  
+A: `font-weight` property.
