@@ -22,6 +22,7 @@ Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://w
     - [Order Matters](#order-matters)
     - [Specifics Matter](#specifics-matter)
   - [Styling Up](#styling-up)
+  - [Quiz: Using Semantic Tags](#quiz-using-semantic-tags)
 
 # Lesson 1: HTML, CSS, and Boxes
 
@@ -247,3 +248,17 @@ Use the documentations above to answer the following questions:
 
 2. What property would you use to make the text look **bold**?  
 A: `font-weight` property.
+
+## Quiz: Using Semantic Tags
+
+[Content sectioning elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning) allow you to organize the document content into logical pieces. Use the sectioning elements to create a broad outline for your page content, including header and footer navigation, and heading elements to identify sections of content.
+
+[Sections and Outlines of an HTML5 Document - The HTML5 Outline Algorithm](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines#The_HTML5_outline_algorithm)
+
+Browsers use default stylesheets to determine how to display HTML elements. You can view the default style rules for `h1` and other elements for the following browsers:
+
+- [WebKit (Chrome and Safari)](https://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css)
+- [Firefox](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [Internet Explorer](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms757841(v=vs.85))
+
+Because these rules differ sometimes between browsers, there are efforts to promote consistency in styles across browsers. One popular solution to this issue is using what is referred to as a CSS reset such as [`normalize.css`](http://necolas.github.io/normalize.css/).
