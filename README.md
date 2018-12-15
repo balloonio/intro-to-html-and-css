@@ -86,7 +86,7 @@ HTML files are nothing but text files whose format follows the specific HTML syn
 <tag attribute-var1="attribute-value1" attribute-var2="attribute-value2">
     content (which can be empty, text, or other elements...)
 <!-- ending tag -->
-</tag> 
+</tag>
 ```
 
 CSS, on the other hand, is used to define the styles. For example, by using a CSS file, we can specify all the paragraph elements with attribute `class="news-body"` to use the style where font color is navy blue. We will learn how to do it later this course.
@@ -136,7 +136,7 @@ Draw a pure box with `<div>`
 </div>
 ```
 
-A way to differentiate these boxes is to use the `class` attribute. (We want to be able to differentiate the boxes because, for example, we want to apply different style to each box.) If an element is imagined to be a real paperboard box, `class` is like the label on that box. One box can have any number of lables. 
+A way to differentiate these boxes is to use the `class` attribute. (We want to be able to differentiate the boxes because, for example, we want to apply different style to each box.) If an element is imagined to be a real paperboard box, `class` is like the label on that box. One box can have any number of lables.
 
 ```html
 <div class="title">My title box</div>
@@ -155,7 +155,8 @@ A way to differentiate these boxes is to use the `class` attribute. (We want to 
 - Create 2 files there - index.html and style.css.
 
 The structure should look like this:
-```
+
+```text
 .
 └───portfolio
     └───toplist
@@ -241,13 +242,13 @@ The biggest key to understanding CSS is understanding **selectors**. Selectors a
 Use the documentations above to answer the following questions:
 
 1. Which of the following are possible values for the `font-style` property?
-- [x] italic
-- [x] normal
-- [ ] bold
-- [ ] standard
+    - [x] italic
+    - [x] normal
+    - [ ] bold
+    - [ ] standard
 
 2. What property would you use to make the text look **bold**?  
-A: `font-weight` property.
+    A: `font-weight` property.
 
 ## Quiz: Using Semantic Tags
 
