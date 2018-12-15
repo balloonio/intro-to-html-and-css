@@ -41,7 +41,7 @@ Observing Wikipedia page structure, which of the followings is/are true?
 - [x] all elements are rectangular
 - [x] you can read the same texts as on the page
 
-Though some elements are invisible (like the 'head' element), all visible elements are rectangular. And, if you dig deep enough into the structure you can read all the text that shows up on the page.
+Though some elements are invisible (like the `<head>` element), all visible elements are rectangular. And, if you dig deep enough into the structure you can read all the text that shows up on the page.
 
 ## Quiz: Page Structure
 
