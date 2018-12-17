@@ -2,11 +2,22 @@
 
 Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://www.udacity.com/course/intro-to-html-and-css--ud001)
 
-*Throughout this course, you'll learn about the underlying structure of the web - HTML. You'll learn how to use this tree-like structure to create websites. You'll also learn how to apply styling to a website through CSS. You'll learn about CSS syntax, selectors, and units. Along the way, you'll also learn about code editors and a browser's Developer Tools.*
+>*Throughout this course, you'll learn about the underlying structure of the web - HTML. You'll learn how to use this tree-like structure to create websites. You'll also learn how to apply styling to a website through CSS. You'll learn about CSS syntax, selectors, and units. Along the way, you'll also learn about code editors and a browser's Developer Tools.*
 
-Course type: Free  
-Timeline: Approx. 3 Weeks  
-Skill level: Beginner
+<table>
+    <tr>
+        <th>Course type</th>
+        <td>Free</td>
+    </tr>
+    <tr>
+        <th>Timeline</th>
+        <td>Approx. 3 Weeks</td>
+    </tr>
+    <tr>
+        <th>Skill level</th>
+        <td>Beginner</td>
+    </tr>
+</table>
 
 - [Lesson 1: HTML, CSS, and Boxes](#lesson-1-html-css-and-boxes)
   - [The First Step](#the-first-step)
