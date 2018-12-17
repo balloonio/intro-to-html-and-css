@@ -1,4 +1,4 @@
-# Overview
+# Intro to HTML and CSS
 
 Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://www.udacity.com/course/intro-to-html-and-css--ud001)
 
@@ -32,16 +32,16 @@ Skill level: Beginner
   - [Styling Up](#styling-up)
   - [Quiz: Using Semantic Tags](#quiz-using-semantic-tags)
 
-# Lesson 1: HTML, CSS, and Boxes
+## Lesson 1: HTML, CSS, and Boxes
 
-## The First Step
+### The First Step
 
 Conceptually, let's think of a website as a house:  
 **HTML** - **stucture** of the house, which defines where the kitchen is, where the bedroom is etc.  
 **CSS** - the **style** of the house, which defines what color the walls are, how big is the carpet, what decorations are there etc.  
 **Javascript** - **interactive** components of the house, for example, a garage door opener or a TV remote controller, which would change some elements of the house
 
-## Quiz: Exploring the Web
+### Quiz: Exploring the Web
 
 Observing Wikipedia page structure, which of the followings is/are true?
 
@@ -51,7 +51,7 @@ Observing Wikipedia page structure, which of the followings is/are true?
 
 Though some elements are invisible (like the `<head>` element), all visible elements are rectangular. And, if you dig deep enough into the structure you can read all the text that shows up on the page.
 
-## Quiz: Page Structure
+### Quiz: Page Structure
 
 Explain the tree structure for the html file below:
 
@@ -69,17 +69,17 @@ Explain the tree structure for the html file below:
 </html>
 ```
 
-## Summary of HTML
+### Summary of HTML
 
 So far, we have learned how HTML classifies the page content, like where a image is or where a paragraph should be, but we haven't learn how the content is shown, like how big the font size or what image is shown, because those are not HTML's jobs.
 
-## Quiz: Visual Styling
+### Quiz: Visual Styling
 
 You can find all the examples for this course [here](http://assignments.udacity-extras.appspot.com/courses/html-css/index.html). The second example which you are supposed to check for this quiz is [Same HTML 2](http://assignments.udacity-extras.appspot.com/courses/html-css/samples/style-2.html)! This page has the same HTML file as [Same HTML 1](http://assignments.udacity-extras.appspot.com/courses/html-css/samples/style-1.html), but the look is totally different.
 
 Learn to use developer tools to identify the font size of `h1` and the border size of the image.
 
-## HTML-CSS-DOM
+### HTML-CSS-DOM
 
 **HTML** - HyperText Markup Language - the standard markup language used to create web pages.
 
@@ -99,7 +99,7 @@ HTML files are nothing but text files whose format follows the specific HTML syn
 
 CSS, on the other hand, is used to define the styles. For example, by using a CSS file, we can specify all the paragraph elements with attribute `class="news-body"` to use the style where font color is navy blue. We will learn how to do it later this course.
 
-## Quiz: Boxes Everywhere
+### Quiz: Boxes Everywhere
 
 In this [page](http://assignments.udacity-extras.appspot.com/courses/html-css/samples/shapes.html), what happens when `border-radius` is unchecked?
 
@@ -115,11 +115,11 @@ display: inline-block;
 }
 ```
 
-## Boxes, Grids and Rules
+### Boxes, Grids and Rules
 
 The reason every element has a box layout is for simplicity. Think about boxes in a warehouse - the reason everything is stored in boxes is because they can stacked easily, and their location can be referred to easily. If all the warehouse storage units are of different shapes, they would be really difficult to arrange and categorize. Same thing here for web page layout.
 
-## Quiz: Boxifying Design
+### Quiz: Boxifying Design
 
 Boxify a design:
 
@@ -128,11 +128,11 @@ Boxify a design:
 - [x] printed the page and drew on it
 - [x] printed the page and cut with scissors
 
-## Interview with Jacques
+### Interview with Jacques
 
 Jacques talked about how to boxify a design - from outer big boxes to inner small boxes.
 
-## Boxes To HTML
+### Boxes To HTML
 
 Draw a pure box with `<div>`
 
@@ -154,9 +154,9 @@ A way to differentiate these boxes is to use the `class` attribute. (We want to 
 </div>
 ```
 
-## Quiz: Creating the Files
+### Quiz: Creating the Files
 
-### Create Folder and File Structure
+#### Create Folder and File Structure
 
 - Create a folder for all your future web projects somewhere convenient, for example on your Desktop or in your Documents folder and call the folder “portfolio”.
 - Create another folder inside it for this first page, call it “toplist”.
@@ -174,7 +174,7 @@ The structure should look like this:
 
 To keep things organized we highly recommend using the file structure described above. Since many of the HTML and CSS files you'll be creating in these lessons have similar names (like `index.html`), it is recommended that you create a separate folder/directory within `portfolio` for each mockup (the suggested name for this one is `toplist`) and save the related HTML and CSS files within it.
 
-### Edit the HTML Document
+#### Edit the HTML Document
 
 Open the `index.html` file in your code editor, and write or copy/paste the following code and save the file:
 
@@ -188,12 +188,12 @@ Open the `index.html` file in your code editor, and write or copy/paste the foll
 
 Note: For this quiz, you are not expected to add the image or the description text.
 
-### Test the HTML File in a Browser
+#### Test the HTML File in a Browser
 
 - Go to the folder, right click the file and choose “Open.. with Google Chrome”.
 - Alternatively, in Chrome click "File -> Open File" and then browse to the `index.html` file and click "Open".
 
-## Quiz: Adding Style
+### Quiz: Adding Style
 
 An HTML file needs to tell the browser where to look for the style files. Otherwise, the browser will just render with its default styles. That is exactly why we need a more complete HTML format, compared to what we've seen earlier. The `<head>` tag is used to specify some meta-data about the HTML file, in this case, the CSS style file.
 
@@ -221,13 +221,13 @@ An HTML file needs to tell the browser where to look for the style files. Otherw
 }
 ```
 
-## Understanding CSS
+### Understanding CSS
 
-### Search and Replace
+#### Search and Replace
 
 You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different ones.
 
-### Order Matters
+#### Order Matters
 
 It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:
 
@@ -236,11 +236,11 @@ It also matters where you define the rules and in what order they are applied. S
 - stylesheet inside HTML (this can be done for small projects but is not ideal)
 - inline style in an element (this can also be done but should be avoided)
 
-### Specifics Matter
+#### Specifics Matter
 
 **"Cascading"** means that rules are applied **not only** to the elements they directly match, but also to **all of those elements' child elements**. However, if a child element has multiple, overlapping rules defined for it, the **more specific rule takes effect**.
 
-## Styling Up
+### Styling Up
 
 The biggest key to understanding CSS is understanding **selectors**. Selectors are what allows you to target specific HTML elements and apply style to them. The best way to learn CSS is to get comfortable with the **documentations**.
 
@@ -258,7 +258,7 @@ Use the documentations above to answer the following questions:
 2. What property would you use to make the text look **bold**?  
     A: `font-weight` property.
 
-## Quiz: Using Semantic Tags
+### Quiz: Using Semantic Tags
 
 [Content sectioning elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning) allow you to organize the document content into logical pieces. Use the sectioning elements to create a broad outline for your page content, including header and footer navigation, and heading elements to identify sections of content.
 
