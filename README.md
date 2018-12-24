@@ -40,8 +40,9 @@ Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://w
     - [Search and Replace](#search-and-replace)
     - [Order Matters](#order-matters)
     - [Specifics Matter](#specifics-matter)
-  - [Styling Up](#styling-up)
+  - [Quiz: Styling Up](#quiz-styling-up)
   - [Quiz: Using Semantic Tags](#quiz-using-semantic-tags)
+  - [Quiz: The Box Revisited](#quiz-the-box-revisited)
 
 ## Lesson 1: HTML, CSS, and Boxes
 
@@ -251,7 +252,7 @@ It also matters where you define the rules and in what order they are applied. S
 
 **"Cascading"** means that rules are applied **not only** to the elements they directly match, but also to **all of those elements' child elements**. However, if a child element has multiple, overlapping rules defined for it, the **more specific rule takes effect**.
 
-### Styling Up
+### Quiz: Styling Up
 
 The biggest key to understanding CSS is understanding **selectors**. Selectors are what allows you to target specific HTML elements and apply style to them. The best way to learn CSS is to get comfortable with the **documentations**.
 
@@ -282,3 +283,14 @@ Browsers use default stylesheets to determine how to display HTML elements. You 
 - [Internet Explorer](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms757841(v=vs.85))
 
 Because these rules differ sometimes between browsers, there are efforts to promote consistency in styles across browsers. One popular solution to this issue is using what is referred to as a CSS reset such as [`normalize.css`](http://necolas.github.io/normalize.css/).
+
+### Quiz: The Box Revisited
+
+The box models contains four parts, from inner to outer:
+
+1. content
+2. padding
+3. border
+4. margin
+
+>`Element width = width + padding*2 + border-width*2`
