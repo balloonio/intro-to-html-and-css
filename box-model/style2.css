@@ -8,15 +8,34 @@ html {
     background: #303033
 }
 
-div.box {
-background: #8797A8;
-padding: 20px;
+div {
+background-color: teal;
+padding: 10px;
 
 border-color: tomato;
-border-width: 30px;
+border-width: 5px;
 border-style: solid;
 }
 
-h1, h2 {
-    background: #303033
+div.box-title, div.box-body {
+    width: 1200px;
 }
+
+div.box-content {
+    float: left;
+    width: 300px;
+}
+
+h1, h2 {
+    background-color: grey;
+    color: whitesmoke;
+
+    border-color: crimson;
+    border-style: solid;
+    border-width: 2px;
+
+    width: 300px;
+    margin: 10px;
+
+    text-align: center;
+}   
