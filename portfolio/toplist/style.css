@@ -1,8 +1,8 @@
 .description {
-    // this applies to all class="description"
+    /* this applies to all class="description" */
     color: red
 }
 
 p {
-    // this applies to all paragraphs
+    /* this applies to all paragraphs */
 }
