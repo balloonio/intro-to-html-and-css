@@ -43,6 +43,7 @@ Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://w
   - [Quiz: Styling Up](#quiz-styling-up)
   - [Quiz: Using Semantic Tags](#quiz-using-semantic-tags)
   - [Quiz: The Box Revisited](#quiz-the-box-revisited)
+  - [Positioning Boxes](#positioning-boxes)
 
 ## Lesson 1: HTML, CSS, and Boxes
 
@@ -302,3 +303,7 @@ What does `box-sizing` property do?
 Here is a good video I found about the box model.
 
 [![The Box Model](https://img.youtube.com/vi/7uLVxPBuaDA/0.jpg)](https://www.youtube.com/watch?v=7uLVxPBuaDA)
+
+### Positioning Boxes
+
+Apply the CSS rule `display: flex` to the parent container to position the children elements within the parent container.
