@@ -17,13 +17,24 @@ border-width: 5px;
 border-style: solid;
 }
 
-div.box-title, div.box-body {
+div.box-title {
+    width: 600px;
+}
+
+div.box-body {
     width: 1200px;
 }
 
 div.box-content {
     float: left;
     width: 300px;
+}
+
+/* clearfix */
+.box-body::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 h1, h2 {

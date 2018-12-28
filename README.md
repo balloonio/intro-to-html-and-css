@@ -294,3 +294,7 @@ The box models contains four parts, from inner to outer:
 4. margin
 
 >`Element width = width + padding*2 + border-width*2`
+
+What does `box-sizing` property do?
+
+> *The `box-sizing` property allows us to include the padding and border in an element's total width and height.([source](https://www.w3schools.com/css/css3_box-sizing.asp))*
