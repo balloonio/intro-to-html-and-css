@@ -298,3 +298,7 @@ The box models contains four parts, from inner to outer:
 What does `box-sizing` property do?
 
 > *The `box-sizing` property allows us to include the padding and border in an element's total width and height.([source](https://www.w3schools.com/css/css3_box-sizing.asp))*
+
+Here is a good video I found about the box model.
+
+[![The Box Model](https://img.youtube.com/vi/7uLVxPBuaDA/0.jpg)](https://www.youtube.com/watch?v=7uLVxPBuaDA)
