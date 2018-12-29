@@ -44,6 +44,7 @@ Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://w
   - [Quiz: Using Semantic Tags](#quiz-using-semantic-tags)
   - [Quiz: The Box Revisited](#quiz-the-box-revisited)
   - [Positioning Boxes](#positioning-boxes)
+  - [Quiz: Adding Image](#quiz-adding-image)
 
 ## Lesson 1: HTML, CSS, and Boxes
 
@@ -307,3 +308,11 @@ Here is a good video I found about the box model.
 ### Positioning Boxes
 
 Apply the CSS rule `display: flex` to the parent container to position the children elements within the parent container.
+
+### Quiz: Adding Image
+
+Adding an `alt` attribute to image tag so that an alternative text can be displayed even when the image is not loaded due to network reasons.
+
+`<img src="images/app.png" alt="This is a screenshot">`
+
+Mockup and source files are under app directory.
