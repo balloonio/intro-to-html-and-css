@@ -45,6 +45,10 @@ Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://w
   - [Quiz: The Box Revisited](#quiz-the-box-revisited)
   - [Positioning Boxes](#positioning-boxes)
   - [Quiz: Adding Image](#quiz-adding-image)
+  - [Code, Test, Refine](#code-test-refine)
+  - [Quiz: More on DevTools](#quiz-more-on-devtools)
+  - [Quiz: Comparing with the Design](#quiz-comparing-with-the-design)
+  - [Quiz: Verifying HTML and CSS](#quiz-verifying-html-and-css)
 
 ## Lesson 1: HTML, CSS, and Boxes
 
@@ -316,3 +320,28 @@ Adding an `alt` attribute to image tag so that an alternative text can be displa
 `<img src="images/app.png" alt="This is a screenshot">`
 
 Mockup and source files are under app directory.
+
+### Code, Test, Refine
+
+1. Look for natural boxes
+2. Look for repeated styles and semantic elements
+3. Write your HTML
+4. Apply styles from biggest to smallest
+5. Fix things
+
+### Quiz: More on DevTools
+
+Use Chrome developer tools.
+
+### Quiz: Comparing with the Design
+
+Some useless quiz.
+
+### Quiz: Verifying HTML and CSS
+
+To verify HTML: http://validator.w3.org/#validate_by_input
+To verify CSS: http://jigsaw.w3.org/css-validator/#validate_by_input
+
+What Element Is Missing Something?
+
+>Error: Element `head` is missing a required instance of child element `title`
