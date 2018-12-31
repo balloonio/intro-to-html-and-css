@@ -49,6 +49,15 @@ Learning notes and hand-ons for Udacity course [Intro to HTML and CSS](https://w
   - [Quiz: More on DevTools](#quiz-more-on-devtools)
   - [Quiz: Comparing with the Design](#quiz-comparing-with-the-design)
   - [Quiz: Verifying HTML and CSS](#quiz-verifying-html-and-css)
+  - [Conclusion](#conclusion)
+- [Lesson 2: Lesson 1 Practice](#lesson-2-lesson-1-practice)
+  - [Front End Practice](#front-end-practice)
+- [Lesson 3: CSS Frameworks, Responsive Layouts](#lesson-3-css-frameworks-responsive-layouts)
+  - [Intro](#intro)
+  - [Grid Based Design](#grid-based-design)
+  - [Building a Framework](#building-a-framework)
+  - [Responsive Web Pages](#responsive-web-pages)
+  - [Quiz: Defining the Layout](#quiz-defining-the-layout)
 
 ## Lesson 1: HTML, CSS, and Boxes
 
@@ -344,4 +353,49 @@ To verify CSS: http://jigsaw.w3.org/css-validator/#validate_by_input
 
 What Element Is Missing Something?
 
->Error: Element `head` is missing a required instance of child element `title`
+>Error: Element `head` is missing a required instance of child element `title`.
+
+### Conclusion
+
+Next lesson teaches CSS grid and box structure and responsive design.
+
+## Lesson 2: Lesson 1 Practice
+
+### Front End Practice
+
+Jacques talks about the best way to learn about front end UI design - whenever you see some fancy website, just open up a dev tool and see how it is coded.
+
+## Lesson 3: CSS Frameworks, Responsive Layouts
+
+### Intro
+
+You will be making a portfolio page in this lesson.
+
+### Grid Based Design
+
+Human eyes follow a natural pattern of flow when reading a website - left to right, top to bottom.
+
+### Building a Framework
+
+>CSS frameworks are pre-prepared software frameworks that are meant to allow for easier, more standards-compliant web design using the Cascading Style Sheets language. Most of these frameworks contain at least a grid.
+
+>Collections of CSS classes that make page layout easy to implement
+
+In this lesson, we'll learn what it takes to create your own framework. In the next lesson, we'll discuss choosing a framework so that you can benefit from all the hard work someone else has done.
+
+### Responsive Web Pages
+
+Responsive design is to change the size of web pages to fit all kind of screen sizes.
+
+Adaptive design is to change the web pages further to adapt to the fact that mobile web pages are interacted with human fingers instead of mouses and keyboards.
+
+### Quiz: Defining the Layout
+
+Use percentage to define width, instead of absolute px.
+
+Which of the following grid sizes allows for just enough customization?
+
+- [ ] 5 columns
+- [ ] 8 columns
+- [x] 12 columns
+- [ ] 20 columns
